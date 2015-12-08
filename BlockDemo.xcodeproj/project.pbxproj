@@ -14,6 +14,8 @@
 		5C9463E51B37B266004D40B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C9463E41B37B266004D40B3 /* Images.xcassets */; };
 		5C9463E81B37B266004D40B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9463E61B37B266004D40B3 /* LaunchScreen.xib */; };
 		5C9463F41B37B266004D40B3 /* BlockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9463F31B37B266004D40B3 /* BlockDemoTests.m */; };
+		8653F8A01C16D043002D3B2D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8653F89E1C16D043002D3B2D /* SecondViewController.m */; };
+		8653F8A11C16D043002D3B2D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8653F89F1C16D043002D3B2D /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		5C9463ED1B37B266004D40B3 /* BlockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9463F21B37B266004D40B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C9463F31B37B266004D40B3 /* BlockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemoTests.m; sourceTree = "<group>"; };
+		8653F89D1C16D043002D3B2D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8653F89E1C16D043002D3B2D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8653F89F1C16D043002D3B2D /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				5C9463DC1B37B266004D40B3 /* AppDelegate.m */,
 				5C9463DE1B37B266004D40B3 /* ViewController.h */,
 				5C9463DF1B37B266004D40B3 /* ViewController.m */,
+				8653F89D1C16D043002D3B2D /* SecondViewController.h */,
+				8653F89E1C16D043002D3B2D /* SecondViewController.m */,
+				8653F89F1C16D043002D3B2D /* SecondViewController.xib */,
 				5C9463E11B37B266004D40B3 /* Main.storyboard */,
 				5C9463E41B37B266004D40B3 /* Images.xcassets */,
 				5C9463E61B37B266004D40B3 /* LaunchScreen.xib */,
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8653F8A11C16D043002D3B2D /* SecondViewController.xib in Resources */,
 				5C9463E31B37B266004D40B3 /* Main.storyboard in Resources */,
 				5C9463E81B37B266004D40B3 /* LaunchScreen.xib in Resources */,
 				5C9463E51B37B266004D40B3 /* Images.xcassets in Resources */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8653F8A01C16D043002D3B2D /* SecondViewController.m in Sources */,
 				5C9463E01B37B266004D40B3 /* ViewController.m in Sources */,
 				5C9463DD1B37B266004D40B3 /* AppDelegate.m in Sources */,
 				5C9463DA1B37B266004D40B3 /* main.m in Sources */,
@@ -416,6 +426,7 @@
 				5C9463F91B37B266004D40B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C9463FA1B37B266004D40B3 /* Build configuration list for PBXNativeTarget "BlockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				5C9463FC1B37B266004D40B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
